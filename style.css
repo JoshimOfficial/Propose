@@ -1,0 +1,108 @@
+body {
+background-color: white;
+font-size: 17px;
+color: white;
+}
+
+.main {
+    height: 450px;
+    width: 550px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.wraper {
+    background: #ff5d79;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    width: 550px;
+    margin-top: 60px;
+    transition: all 1s;
+}
+
+.name{
+    margin-top: 20px;
+}
+
+.submit_sec {
+    margin-top: 25px;
+    margin-left: 85px;
+}
+
+#user_fname {
+
+}
+
+#user_lname {
+
+}
+
+input[type="submit"] {
+    width: 200px;
+    height: 35px;
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+}
+
+input[type="name"] {
+    height: 35px;
+    width: 300px;
+    border: 1px solid;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+    transition: all 1s;
+}
+
+.gender_sec {
+
+}
+
+select {
+    height: 35px;
+    width: 306px;
+    border: 1px solid;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+    margin-left: 52px;
+    margin-top: 25px;
+    transition: 1s;
+}
+
+input[type="name"]:focus {
+    outline: 1px solid rgb(2, 128, 231);
+}
+
+.ml4 {
+    position: relative;
+    font-weight: 900;
+    font-size: 20px;
+    color: black;
+    margin-top: 185px;
+  }
+  .ml4 .letters {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0.3em;
+    right: 0;
+    opacity: 0; 
+    color: black;
+  }
+
+  .animation {
+    background: #ff5d79;
+    width: 550px;
+    height: 450px;
+    position: absolute;
+    border-radius: 10px;
+    text-align: center;
+    opacity: 0;
+    transition: 1.5s;
+  }
