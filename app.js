@@ -39,6 +39,12 @@ submitBtn.addEventListener("click", ()=>{
         
             
            wraper.style.opacity = "0"
+           setTimeout(()=> {
+             wraper.style.display = "none"
+           }, 1000)
+
+
+           
            animation.style.opacity = "1"
             userNameWithAnimation.innerText = userFname.value + " " + genderDetector();
             userGenderWithAnimation.innerText = genderDetector()
